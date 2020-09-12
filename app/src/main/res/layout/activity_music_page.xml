@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0099cc"
+    tools:context=".musicPage.MusicPage"
+    android:id="@+id/musicPage">
+
+    <RelativeLayout
+        android:id="@+id/connected"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/design_default_color_background"
+        >
+
+        <!-- Rectangle 1 -->
+        <RelativeLayout
+            android:id="@+id/rectangle_1"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_rectangle_1"
+            android:translationZ="20dp"
+            />
+
+        <!-- Vector 4 -->
+        <View
+            android:id="@+id/vector_4"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-10dp"
+            android:layout_marginTop="-70dp"
+            android:background="@drawable/ic_vector_4"
+            android:elevation="4dp" />
+
+        <!-- Contrôleur -->
+        <TextView
+            android:id="@+id/contr_leur"
+            android:layout_width="236dp"
+            android:layout_height="56dp"
+            android:translationZ="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="24dp"
+            android:gravity="top"
+            android:text="@string/contr_leur"
+            android:textColor="@color/onPrimary"
+            android:textSize="48sp" />
+
+        <!-- Vector 1 -->
+        <View
+            android:id="@+id/vector_1"
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="467dp"
+            android:background="@drawable/ic_vector_1"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/btnPlaySong"
+
+            android:background="@drawable/ic_ellipse_light"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="50dp"
+            android:layout_alignStart="@id/linearLayoutText"
+            android:layout_alignEnd="@id/linearLayoutText"
+            android:layout_alignTop="@id/linearLayoutText"
+            android:layout_alignBottom="@id/linearLayoutText"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:textFontWeight="800"
+            android:text="@string/play_song"
+            tools:targetApi="p" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutText"
+            android:layout_width="334dp"
+            android:layout_height="88dp"
+            android:layout_alignTop="@id/ellipse_6"
+            android:layout_alignBottom="@id/ellipse_6"
+            android:layout_alignStart="@id/ellipse_6"
+            android:layout_alignEnd="@id/ellipse_6"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <!-- Ellipse 7 -->
+        <View
+            android:id="@+id/ellipse_7"
+            android:layout_width="411dp"
+            android:layout_height="411dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+
+            android:background="@drawable/ic_ellipse_7" />
+
+        <!-- Ellipse 5 -->
+        <View
+            android:id="@+id/ellipse_5"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_alignEnd="@id/ellipse_7"
+            android:layout_alignStart="@id/ellipse_7"
+            android:layout_alignTop="@id/ellipse_7"
+            android:layout_alignBottom="@id/ellipse_7"
+            android:layout_marginVertical="50dp"
+            android:layout_marginHorizontal="20dp"
+
+            android:background="@drawable/ic_ellipse_5" />
+
+        <!-- Ellipse 6 -->
+        <View
+            android:id="@+id/ellipse_6"
+            android:layout_width="200dp"
+            android:layout_height="306dp"
+            android:layout_alignEnd="@id/ellipse_7"
+            android:layout_alignStart="@id/ellipse_7"
+            android:layout_alignTop="@id/ellipse_7"
+            android:layout_alignBottom="@id/ellipse_7"
+            android:layout_marginVertical="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/ic_ellipse_6" />
+
+        <!-- Ellipse 1 -->
+        <ImageButton
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/ic_frame_2"
+            android:onClick="goToControler"
+            android:contentDescription="@string/starts_controller" />
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

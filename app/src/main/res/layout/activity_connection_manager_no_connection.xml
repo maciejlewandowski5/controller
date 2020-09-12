@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#0099cc"
+    android:exported="true"
+    tools:context=".ConnectionManager"
+    android:id="@+id/noConnection">
+
+
+<RelativeLayout
+    android:id="@+id/connected"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/design_default_color_background">
+
+    <FrameLayout
+        android:id="@+id/fg_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <View
+            android:id="@+id/vector_1"
+            android:layout_width="match_parent"
+            android:layout_height="417dp"
+            android:layout_marginTop="311dp"
+            android:background="@drawable/ic_vector_1"
+            android:elevation="0dp" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/contr_leur"
+        android:layout_width="236dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="24dp"
+        android:gravity="top"
+        android:text="@string/contr_leur"
+        android:textColor="@color/onPrimary"
+        android:textSize="48sp"
+        android:translationZ="15dp" />
+
+    <View
+        android:id="@+id/ellipse_4"
+        android:layout_width="263dp"
+        android:layout_height="263dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-20dp"
+        android:background="@drawable/ic_ellipse_4" />
+
+    <TextView
+        android:id="@+id/choisir"
+        android:layout_width="400dp"
+        android:layout_height="52dp"
+        android:layout_alignBottom="@+id/ellipse_4"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="21dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/no_internet_connection"
+        android:textColor="@color/onBackground"
+        android:textSize="32sp"
+        android:textFontWeight="800"
+        tools:targetApi="p" />
+
+
+
+    <View
+        android:id="@+id/vector_4"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="-70dp"
+        android:background="@drawable/ic_vector_4"
+        android:elevation="4dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/rectangle_1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/ic_rectangle_1"
+        android:translationZ="20dp" />
+
+    <RelativeLayout
+        android:id="@+id/frame_3"
+        android:layout_width="159dp"
+        android:layout_height="159dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_frame_3"
+        android:visibility="visible" />
+
+
+    <ImageButton
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/ic_frame_2"
+        android:contentDescription="@string/calibration_button"
+        android:onClick="resetMousePointer" />
+
+</RelativeLayout>
+
+
+</FrameLayout>

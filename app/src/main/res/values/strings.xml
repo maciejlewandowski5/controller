@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">controler</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="title_activity_contrl_page">ContrlPage</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="contr_leur">Contrôleur</string>
+    <string name="choisir">Choisir</string>
+    <string name="la_musique">la Musique</string>
+    <string name="prendre">Prendre</string>
+    <string name="vent">Vent</string>
+    <string name="lumi_re">Lumière</string>
+    <string name="image_of_arrow_and_accept_button">Image of arrow and accept button.</string>
+    <string name="calibration_button">Calibration button.</string>
+    <string name="start_controller">Start controller.</string>
+    <string name="starts_controller">Starts controller.</string>
+    <string name="play_song">Play Song</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="kontroler_ju_pod_czony">Kontroler już podłączony.</string>
+</resources>
